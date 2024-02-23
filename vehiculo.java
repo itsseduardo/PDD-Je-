@@ -62,10 +62,12 @@ public class VehiculoAcuatico extends Vehiculo {
 // Ejemplo de uso
 public class Main {
     public static void main(String[] args) {
-        VehiculoTerrestre auto = new VehiculoTerrestre("Toyota", "Corolla", 4);
+        VehiculoTerrestre auto = new VehiculoTerrestre("Toyota", "Fortuner", 4);
         System.out.println(auto.toString());
 
         VehiculoAcuatico barco = new VehiculoAcuatico("Yamaha", "Waverunner", 2);
         System.out.println(barco.toString());
     }
 }
+
+
